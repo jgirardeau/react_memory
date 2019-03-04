@@ -3,9 +3,12 @@ import React from "react";
 
 function Header() {
   return (
-    <div>
-      HEADER
+
+    <div class="card">
+      <div class="card-header">
+        Header!!!!
       </div>
+    </div>
   );
 }
 
