@@ -19,10 +19,18 @@ class Game extends Component {
     this.setState({ data:Data });
     console.log(Data)
   }
-  handleClick(event){
+  handleClick(index){
     // console.log("CLICK",event)
-    console.log(event)
-
+    console.log(index);
+    // UPDATE COUNTER
+    let newData=this.state.data;
+    if(newData[index].clicked){
+      // END GAME!!!!
+      console.log("*****Double clicked");
+    }
+    newData[index].clicked=true;
+    this.setState({ data:newData.sort(()=>  0.5 - Math.random()) });
+    console.log(this.state.data)
   }
 
   render() {  

@@ -1,13 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 
-function Tail() {
-  return (
-    <div className="card">
-      <div className="card-header">
-        Footer
+class Tail extends Component {
+  render() {  
+    return (
+      // <div>section</div>
+      <div>
+Header
       </div>
-    </div>
-  );
+    )
+  }
 }
+
 
 export default Tail;

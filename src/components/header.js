@@ -1,15 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 
-
-function Header() {
-  return (
-
-    <div className="card">
-      <div className="card-header">
-        Header!!!!
+class Header extends Component {
+  render() {  
+    return (
+      // <div>section</div>
+      <div>
+Header
       </div>
-    </div>
-  );
+    )
+  }
 }
+
 
 export default Header;
