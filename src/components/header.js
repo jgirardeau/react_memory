@@ -4,8 +4,8 @@ import React from "react";
 function Header() {
   return (
 
-    <div class="card">
-      <div class="card-header">
+    <div className="card">
+      <div className="card-header">
         Header!!!!
       </div>
     </div>
