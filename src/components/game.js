@@ -19,6 +19,11 @@ class Game extends Component {
     this.setState({ data:Data });
     console.log(Data)
   }
+  handleClick(event){
+    // console.log("CLICK",event)
+    console.log(event)
+
+  }
 
   render() {  
     return (
@@ -26,7 +31,7 @@ class Game extends Component {
       <div>
         {
           this.state.data.map((item, index) =>
-            <img src={item.image} key={index} className="cats" alt="cat" height="120" width="120"/>)
+            <img src={item.image} key={index} className="cats" alt="cat" height="120" width="120" onClick={() => this.handleClick(index) } />)
         }
       </div>
     )
