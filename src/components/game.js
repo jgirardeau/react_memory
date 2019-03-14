@@ -21,16 +21,22 @@ class Game extends Component {
   }
   handleClick(index){
     // console.log("CLICK",event)
-    console.log(index);
+    //console.log(index);
     // UPDATE COUNTER
     let newData=this.state.data;
+    let gameOver=false;
     if(newData[index].clicked){
-      // END GAME!!!!
+      gameOver=true;
       console.log("*****Double clicked");
     }
     newData[index].clicked=true;
     this.setState({ data:newData.sort(()=>  0.5 - Math.random()) });
     console.log(this.state.data)
+    if(gameOver){
+      //clear clicks
+      
+    }
+    this.props.updateScore(gameOver);
   }
 
   render() {  
