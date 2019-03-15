@@ -5,7 +5,7 @@ class Tail extends Component {
     return (
       // <div>section</div>
       <div>
-Header
+Clicky Game!
       </div>
     )
   }

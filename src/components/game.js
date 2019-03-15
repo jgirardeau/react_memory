@@ -17,11 +17,11 @@ class Game extends Component {
   }
   componentDidMount() {
     this.setState({ data:Data });
-    console.log(Data)
+    // console.log(Data)
   }
   handleClick(index){
     // console.log("CLICK",event)
-    //console.log(index);
+    console.log(index);
     // UPDATE COUNTER
     let newData=this.state.data;
     let gameOver=false;
@@ -30,12 +30,15 @@ class Game extends Component {
       console.log("*****Double clicked");
     }
     newData[index].clicked=true;
-    this.setState({ data:newData.sort(()=>  0.5 - Math.random()) });
-    console.log(this.state.data)
+ 
+    // console.log(this.state.data)
     if(gameOver){
       //clear clicks
-      
+      for(var i=0;i<newData.length;i++){
+        newData[index].clicked=false;
+      }
     }
+    this.setState({ data:newData.sort(()=>  0.5 - Math.random()) });
     this.props.updateScore(gameOver);
   }
 
