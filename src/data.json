@@ -1,31 +1,31 @@
 [{
         "id": 1,
-        "image": "/images/cat_1.png",
+        "image": "./images/cat_1.png",
         "clicked": false
     },
     {
         "id": 2,
-        "image": "/images/cat_2.png",
+        "image": "./images/cat_2.png",
         "clicked": false
     },
     {
         "id": 3,
-        "image": "/images/cat_3.png",
+        "image": "./images/cat_3.png",
         "clicked": false
     },
     {
         "id": 4,
-        "image": "/images/cat_4.png",
+        "image": "./images/cat_4.png",
         "clicked": false
     },
     {
         "id": 5,
-        "image": "/images/cat_5.png",
+        "image": "./images/cat_5.png",
         "clicked": false
     },
     {
         "id": 6,
-        "image": "/images/cat_6.png",
+        "image": "./images/cat_6.png",
         "clicked": false
     },
     {
