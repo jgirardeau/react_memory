@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jgirardeau.github.io/react_memory/precache-manifest.2cbf62255865e057edc77f142ecb34bc.js"
+  "/react_memory/precache-manifest.448f255b084734205dcba78ab5bc488d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/jgirardeau.github.io/react_memory/index.html", {
+workbox.routing.registerNavigationRoute("/react_memory/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

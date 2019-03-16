@@ -1,13 +1,13 @@
 {
-  "main.css": "/jgirardeau.github.io/react_memory/static/css/main.b7114034.chunk.css",
-  "main.js": "/jgirardeau.github.io/react_memory/static/js/main.8e0eb180.chunk.js",
-  "main.js.map": "/jgirardeau.github.io/react_memory/static/js/main.8e0eb180.chunk.js.map",
-  "runtime~main.js": "/jgirardeau.github.io/react_memory/static/js/runtime~main.882399e6.js",
-  "runtime~main.js.map": "/jgirardeau.github.io/react_memory/static/js/runtime~main.882399e6.js.map",
-  "static/js/2.57369828.chunk.js": "/jgirardeau.github.io/react_memory/static/js/2.57369828.chunk.js",
-  "static/js/2.57369828.chunk.js.map": "/jgirardeau.github.io/react_memory/static/js/2.57369828.chunk.js.map",
-  "index.html": "/jgirardeau.github.io/react_memory/index.html",
-  "precache-manifest.2cbf62255865e057edc77f142ecb34bc.js": "/jgirardeau.github.io/react_memory/precache-manifest.2cbf62255865e057edc77f142ecb34bc.js",
-  "service-worker.js": "/jgirardeau.github.io/react_memory/service-worker.js",
-  "static/css/main.b7114034.chunk.css.map": "/jgirardeau.github.io/react_memory/static/css/main.b7114034.chunk.css.map"
+  "main.css": "/react_memory/static/css/main.b7114034.chunk.css",
+  "main.js": "/react_memory/static/js/main.b1638f6a.chunk.js",
+  "main.js.map": "/react_memory/static/js/main.b1638f6a.chunk.js.map",
+  "runtime~main.js": "/react_memory/static/js/runtime~main.e6740043.js",
+  "runtime~main.js.map": "/react_memory/static/js/runtime~main.e6740043.js.map",
+  "static/js/2.57369828.chunk.js": "/react_memory/static/js/2.57369828.chunk.js",
+  "static/js/2.57369828.chunk.js.map": "/react_memory/static/js/2.57369828.chunk.js.map",
+  "index.html": "/react_memory/index.html",
+  "precache-manifest.448f255b084734205dcba78ab5bc488d.js": "/react_memory/precache-manifest.448f255b084734205dcba78ab5bc488d.js",
+  "service-worker.js": "/react_memory/service-worker.js",
+  "static/css/main.b7114034.chunk.css.map": "/react_memory/static/css/main.b7114034.chunk.css.map"
 }
