@@ -35,7 +35,7 @@ class Game extends Component {
     if(gameOver){
       //clear clicks
       for(var i=0;i<newData.length;i++){
-        newData[index].clicked=false;
+        newData[i].clicked=false;
       }
     }
     this.setState({ data:newData.sort(()=>  0.5 - Math.random()) });
