@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from "./components/header";
 import Game from "./components/game";
-import Tail from "./components/tail";
+// import Tail from "./components/tail";
 
 class App extends Component {
   state = {

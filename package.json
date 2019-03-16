@@ -2,7 +2,7 @@
     "name": "react_memory",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https:/jgirardeau.github.io/react_memory",
+    "homepage": "https://jgirardeau.github.io/react_memory",
     "dependencies": {
         "gh-pages": "^2.0.1",
         "react": "^16.8.3",
