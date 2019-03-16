@@ -2,11 +2,15 @@ import React, { Component } from "react";
 import Data from "../data.json";
 
 
-// const styles = {
-//   sectionStyles: {
-//     background: "white"
-//   }
-// };
+const styles = {
+  cats: {
+    height: "100px",
+    fontSize: "25px",
+    fontWeight: "bold",
+    color:"White",
+    border:"5px solid red"
+  }
+};
 
 class Game extends Component {
 
@@ -48,7 +52,7 @@ class Game extends Component {
       <div>
         {
           this.state.data.map((item, index) =>
-            <img src={item.image} key={index} className="cats" alt="cat" height="120" width="120" onClick={() => this.handleClick(index) } />)
+            <img src={item.image} style={styles.cats} key={index} className="cats" alt="cat" height="120" width="120" onClick={() => this.handleClick(index) } />)
         }
       </div>
     )

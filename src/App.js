@@ -30,7 +30,6 @@ class App extends Component {
       <div className="App">
       <Header score = {this.state.score} topScore={this.state.topScore}></Header>
       <Game updateScore = {this.updateScore}></Game>
-      <Tail></Tail>
       </div>
     );
   }
