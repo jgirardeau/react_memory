@@ -1,3 +1,20 @@
+
+React memory game:
+16 pictures are shown. Each time you click on one, the images shuffle.
+The goal of the game is to not click an image twice. The maximum possible score is 16.
+Once an image is clicked twice, the game ends, and the top score is updated.
+
+The project is using create-react-app to get started.
+Only two components are used: header.js-- shows the header and the score and top score
+game.js -- runs the game.
+
+App.js has a global state for score and topscore. An update method is passed to the game.
+
+THe app was deployed on heroku using yarn build and yarn deploy
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
